@@ -1,5 +1,4 @@
 body {
-    background-color: white;
     font-family: 'Karla', sans-serif;
 }
 
@@ -15,6 +14,22 @@ header {
     animation-name: img-fade-in;
     animation-duration: 2s;
 
+}
+
+.fade-out-top {
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,255,1)); 
+    height: 7%;
+    top: 0px;
+}
+
+.fade-out-bottom {
+    position: fixed;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1)); 
+    height: 25%;
+    bottom: 0px;
 }
 
 @keyframes img-fade-in {
@@ -49,19 +64,15 @@ header {
 .img-left {
     width: 40vw;
     padding: 5vw;
-    margin-top: 413px;
+    margin-top: 900px;
+    margin-bottom: 650px;
   
-}
-
-.fade-in {
-    opacity: 0;
-    width: 40vw;
-    padding: 5vw;
-    margin-top: 600px;
 }
 
 .img-right {
     width: 40vw;
     padding: 5vw;
-    margin-bottom: 673px;
+    margin-bottom: 1500px;
+    margin-top: 0px;
+   
 }
